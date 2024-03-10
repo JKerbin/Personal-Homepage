@@ -12,10 +12,16 @@
    pip install gevent
    ```
 
-3. **字符串处理**
+2. **运行服务端**
 
-   代码保存在Question2/myResolution.py，可以在控制台中运行。
+   在目录下控制台中运行app.py
 
-   测试截图：
+   ```terminal
+   python app.py
+   ```
+
+   在浏览器中访问本地回环地址127.0.0.1或者在其他设备上访问服务端的公网ip
+
+3. **主页演示**
+
    
-   ![image](https://github.com/JKerbin/HuangJiaxiang-Resolutions/assets/81380030/de61abbb-3211-426e-8b81-25726104690e)
