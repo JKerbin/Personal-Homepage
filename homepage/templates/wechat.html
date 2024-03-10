@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WeChat QRcode</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/QRcode.css') }}">
+</head>
+
+<body>
+
+    <img src="{{ url_for('static', filename='pic/background.jpg') }}">
+    <div class="center-container">
+        <div class="box">
+        </div>
+
+        <div class="pic">
+            <img src="{{ url_for('static', filename='pic/wechat.jpg') }}">
+            <div class="content">
+                <ul class="sci">
+                    <li>
+                        <a href="{{ url_for('index') }}">
+                            <svg class="fa-brands fa-back" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024">
+                                <path
+                                    d="M622.650611 284.901749 447.745069 284.901749 447.745069 142.823869 63.980685 334.705038l383.76336 191.882192L447.744046 384.834762l189.391465 0c149.914358 0 224.855164 62.789045 224.855164 188.368158 0 129.928165-77.435627 194.876386-232.338602 194.876386L187.952184 768.079306l0 99.93199L634.146433 868.011296c211.184817 0 316.777737-95.104031 316.777737-285.311071C950.924169 384.178823 841.510224 284.901749 622.650611 284.901749z">
+                                </path>
+                            </svg>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+    </div>
+
+</body>
+
+</html>
